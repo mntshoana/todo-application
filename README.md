@@ -1,3 +1,47 @@
+<<<<<<< HEAD
+# Todo-Application
+This is a react and java project of a simple todo scheduling application. A user is able to add, delete, update and view tasks on their todo list.
+
+Feel free to use this source code however you please. 
+
+## Requirements
+The project uses java RTE version 11. To be able to use this code, you will need to have a an ide that supports mavern project files on your system. The pom.xml file is what you will open.
+
+## Usage
+
+Windows
+
+````
+//todo
+````
+
+ Mac
+````
+//todo
+````
+or
+
+Linux
+````
+//todo
+````
+
+For now in the fe (front end) folder, run:
+````
+npm start
+````
+The app will start in development mode on [port 3000](http://localhost:3000).
+
+Tests can be run as follows:
+````
+npm test
+````
+
+And a production build can be run using:
+````
+npm run build
+````
+=======
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +112,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+>>>>>>> bcfc840 (Initialize project using Create React App)
