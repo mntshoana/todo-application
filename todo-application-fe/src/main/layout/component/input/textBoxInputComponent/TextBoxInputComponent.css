@@ -1,0 +1,30 @@
+/* inherits from InputComponent.css */
+.textBox {
+   line-height: 1.5;;
+}
+
+textArea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: rgb(71, 109, 129) 1px solid;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 15px;
+    text-align: center;
+    width: 30%;
+    text-align: bottom;
+}
+
+textArea:focus {
+    box-shadow: none;
+    outline: none;
+    animation-name: borderGlow;
+    animation-duration: 2.0s;
+    -webkit-animation-duration: 2.0s;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.5, 1, .5);
+    -webkit-animation-timing-function: cubic-bezier(.5, 0.5, 1, .5);
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}

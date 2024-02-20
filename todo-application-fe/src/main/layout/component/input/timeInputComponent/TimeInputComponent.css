@@ -1,0 +1,15 @@
+/* inherits from InputComponent.css */
+
+.timeInput:empty {
+    color: rgba(56, 93, 112, 0.5);
+}
+
+.timeInput:focus {
+    background-color: none;
+}
+
+.timeInput::-webkit-calendar-picker-indicator {
+    background: none;
+    position: absolute;
+    left: -100%
+}

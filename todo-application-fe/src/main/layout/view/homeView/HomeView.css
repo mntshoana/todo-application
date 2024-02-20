@@ -1,0 +1,19 @@
+.add-button {
+    bottom: 20px;
+    right: 20px;
+    margin-top: 200dvw;
+    display: block;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(180, 180, 180, 0.5);
+    font: "Mono" bolder 40px;
+    margin: 20px auto !important;
+    padding: auto;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.add-button:hover {
+    background-color: rgba(116, 116, 116, 0.5) !important;
+    filter: contrast(180%);
+}

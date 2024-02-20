@@ -1,0 +1,61 @@
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: rgb(71, 109, 129) 1px solid;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 23px;
+    text-align: center;
+    width: 30%;
+}
+
+.textInput {
+    text-transform: uppercase;
+}
+
+input:focus {
+    box-shadow: none;
+    outline: none;
+    animation-name: borderGlow;
+    animation-duration: 2.0s;
+    -webkit-animation-duration: 2.0s;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.5, 1, .5);
+    -webkit-animation-timing-function: cubic-bezier(.5, 0.5, 1, .5);
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes borderGlow {
+    100% {
+        border-bottom: rgb(122, 204, 212) 1px solid;
+        box-shadow: rgb(97, 196, 203) 1px solid;
+    }
+
+    75% {
+        border-bottom: rgba(42, 135, 185, 0.4) 1px solid;
+        border-shadow: rgba(71, 109, 129, 0.4) 1px solid;
+    }
+
+    50% {
+        border-bottom: rgba(55, 105, 132, 0.6) 1px solid;
+        border-shadow: rgba(71, 109, 129, 0.4) 1px solid;
+    }
+
+    25% {
+        border-bottom: rgba(71, 109, 129, 0.8) 1px solid;
+        border-shadow: rgba(71, 109, 129, 0.8) 1px solid;
+    }
+
+    100% {
+        border-bottom: rgba(71, 109, 129, 1.0) 1px solid;
+        border-shadow: rgba(71, 109, 129, 1.0) 1px solid;
+    }
+}
+
+label {
+    font-size: 30px;
+    color: rgba(56, 93, 112, 0.5);
+    margin: 50px auto 20px auto;
+}

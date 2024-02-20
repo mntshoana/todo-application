@@ -1,0 +1,35 @@
+
+* {
+  user-select: none;
+}
+
+.controls {
+  width: 234px;
+  padding: 0 2px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Helvetica";
+  margin-bottom: 4px;
+}
+
+.controls-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-family: "Rubik";
+  color: rgb(71, 109, 129);
+  background-color: rgba(225, 225, 225, 0.2);
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+}
+
+.controls-button:hover {
+  background-color: rgba(109, 159, 177, 0.5);
+  cursor: pointer;
+}
+
+.week {
+  display: flex;
+}

@@ -1,0 +1,203 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    width: 55dvi;
+    min-height: 50px;
+    color: black;
+
+    margin-top: 5px;
+    transition: all .25s ease-out;
+}
+
+.task:hover {
+    width: 56dvi;
+}
+
+.task .right:hover {
+    filter: saturate(200%);
+}
+
+.right.white:hover {
+    filter: brightness(140%)
+}
+
+/*
+DATE
+*/
+.left {
+    width: 8dvw;
+
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+    text-align: center;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*
+TITLE
+and
+DESCRIPTON
+*/
+.right {
+    width: 65dvw;
+    text-align: left;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+span {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.left span {
+    font-size: 2dvh;
+}
+
+.title {
+    min-height: 20%;
+    font-size: 2dvh;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 10px;
+    display: flex;
+}
+
+
+.body {
+    max-height: 60px;
+    font-size: 1.35dvh;
+
+    display: block;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    padding-left: 20px;
+    padding-right: 30px;
+    -webkit-box-orient: vertical;
+
+}
+
+.body span {
+    display: contents;
+    --lh: 1.4rem;
+    line-height: var(--lh);
+
+}
+
+.body span {
+    display: contents;
+    --lh: 1.4rem;
+    line-height: var(--lh);
+    --max-lines: 3;
+    position: relative;
+    max-height: calc(var(--lh) * var(--max-lines));
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; 
+}
+
+
+.title span {
+    width: 92%;
+}
+
+.editIcon,
+.deleteIcon {
+    height: 20px;
+    display: inline-block;
+    opacity: 55%;
+    margin-right: 3px;
+}
+
+.editIcon:hover,
+.deleteIcon:hover {
+    transform: scale(1.3);
+}
+
+.editIcon:hover {
+    opacity: 80%;
+    filter: contrast(180%)
+}
+
+.deleteIcon {
+    border-radius: 50%;
+    background-color: rgb(109, 109, 109);
+    opacity: 90%;
+}
+
+.deleteIcon:hover {
+    opacity: 80%;
+    background-color: rgb(108, 0, 0);
+}
+
+.white {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.yellow {
+    background-color: rgba(255, 250, 222, 0.2);
+}
+
+.red {
+    background-color: rgba(232, 204, 194, 0.2);
+}
+
+.blue {
+    background-color: rgba(208, 216, 241, 0.2);
+}
+
+.green {
+    background-color: rgba(191, 245, 191, 0.2);
+}
+
+
+.white.right {
+    background-image: linear-gradient(to left, rgba(226, 226, 226, 0.15), 90%, rgba(232, 232, 232, 0.15));
+}
+
+.yellow.right {
+    background-image: linear-gradient(to left, rgba(251, 241, 182, 0.2), 90%, rgba(236, 236, 196, 0.2));
+}
+
+.red.right {
+    background-image: linear-gradient(to left, rgba(255, 213, 198, 0.2), 90%, rgba(221, 177, 162, 0.2));
+}
+
+.blue.right {
+    background-image: linear-gradient(to left, rgba(181, 194, 234, 0.2), 90%, rgba(153, 185, 208, 0.2));
+}
+
+.green.right {
+    background-image: linear-gradient(to left, rgba(191, 245, 191, 0.2), 90%, rgba(171, 220, 168, 0.2));
+}
+
+.white .title {
+    background-color: rgba(233, 221, 221, 0.1);
+    border-left: solid 2px #ff9f9f;
+}
+
+.yellow .title {
+    background-color: rgba(248, 233, 147, 0.1);
+    border-left: solid 2px rgb(255, 255, 255);
+}
+
+.red .title {
+    background-color: rgba(248, 185, 185, 0.1);
+    border-left: solid 2px rgb(152, 43, 43);
+}
+
+.blue .title {
+    background-color: rgba(173, 185, 221, 0.1);
+    border-left: solid 2px rgb(52, 109, 115);
+}
+
+.green .title {
+    background-color: rgba(191, 233, 191, 0.1);
+    border-left: solid 2px rgb(53, 110, 53);
+}
