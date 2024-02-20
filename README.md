@@ -9,30 +9,14 @@ The project uses java RTE version 11. To be able to use this code, you will need
 
 ## Usage
 
-Windows
-
-````
-//todo
-````
-
- Mac
-````
-//todo
-````
-or
-
-Linux
-````
-//todo
-````
-
-For now in the fe (front end) folder, run:
+In each of the folders (front end) -fe and (back end) -be, run:
 ````
 npm start
 ````
-The app will start in development mode on [port 3000](http://localhost:3000).
+The front end app will start in development mode on [port 3000](http://localhost:3000).
+The back end app will start in development mode on [port 3001](http://localhost:3001).
 
-Tests can be run as follows:
+Tests can be run in each folder as follows:
 ````
 npm test
 ````
